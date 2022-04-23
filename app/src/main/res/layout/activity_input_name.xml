@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputNameActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/red" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_player_names"
+        android:textSize="25sp"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="157dp" />
+
+    <EditText
+        android:id="@+id/person1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:autofillHints="no"
+        android:hint="@string/enter_first_player_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        android:minHeight="38dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/person2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:autofillHints="no"
+        android:hint="@string/enter_second_player_name"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/person1"
+        android:minHeight="38dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/person3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:autofillHints="no"
+        android:hint="@string/enter_third_player_name"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/person2"
+        android:minHeight="38dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <EditText
+        android:id="@+id/person4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:autofillHints="no"
+        android:hint="@string/enter_fourth_player_name"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:inputType="textPersonName"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/person3"
+        android:minHeight="38dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <Button
+        android:id="@+id/enterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_the_playground"
+        android:backgroundTint="#8D021F"
+        android:padding="20dp"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/person4"
+        android:layout_marginTop="50dp"
+
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

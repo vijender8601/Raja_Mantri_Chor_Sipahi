@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Raja Mantri Chor Sipahi</string>
+    <string name="play">Play</string>
+    <string name="todo">TODO</string>
+    <string name="enter_the_player_names">Enter the player names</string>
+    <string name="enter_first_player_name">enter first player name</string>
+    <string name="enter_second_player_name">enter second player name</string>
+    <string name="enter_third_player_name">enter third player name</string>
+    <string name="enter_fourth_player_name">enter fourth player name</string>
+    <string name="enter_the_playground">Enter the PlayGround</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="play_again">Play Again</string>
+</resources>
